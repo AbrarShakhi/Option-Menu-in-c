@@ -29,7 +29,7 @@ int main()
             (selector == numberOfItemInList) ? selector = 1 : selector++;
         else if (chKey == 13)
         {
-        system("cls");
+            system("cls");
             showSelected(selector);
             break;
         }
